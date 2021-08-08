@@ -1,0 +1,98 @@
+
+.hidden {
+    display: none;
+  }
+  
+  
+  #greeting {
+    line-height: -5rem;
+    font-family: 'Baloo Tamma', cursive;
+    text-align: center;
+    vertical-align: bottom;
+    color: rgb(218, 153, 255);
+    text-shadow: -1px -1px 0px rgb(200, 104, 255),
+    3px 3px 0px rgb(179, 56, 250);
+  }
+  
+  
+  
+  .clockText{
+    position: absolute;
+       top:20%;
+       left:50%;
+       transform: translate(-50%, -50%);                                                                   
+       font-size:3rem;
+       color: rgb(250, 164, 178);
+       z-index: 2;
+       text-align: center;
+       font-family: 'Baloo Tamma', cursive;
+       text-shadow: -1px -1px 0px salmon,
+      3px 3px 0px rgb(255, 136, 156);
+  }
+  
+  #input1{
+    font-family: 'Baloo Tamma', cursive;
+    width: 130px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    opacity: 0.7;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+  }
+  
+  #input2{
+    font-family: 'Baloo Tamma', cursive;
+    width: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: turquoise;
+    opacity: 0.7;
+    position: absolute;
+    top: 3%;
+    left: 13%;
+  }
+  
+  #todo-form{
+    width: 130px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    opacity: 0.7;
+    font-family: 'Baloo Tamma', cursive;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+  }
+  
+  #todo-list{
+    font-family: 'Baloo Tamma', cursive;
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    color:rgb(242, 229, 250)
+  }
+  
+  
+  #weather{
+    font-family: 'Baloo Tamma', cursive;
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  iframe {
+    position : absolute;
+    top: 35%;
+    left: 45%;
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,.3);
+    transform: rotate(-2deg); 
+    border: 10px solid #fff;
+  }
